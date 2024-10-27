@@ -3,12 +3,9 @@ name: Build and Run Integration Tests
 on:
   push:
     branches: [ "staging" ]
-
 jobs:
-
   build_integrationt_tests:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout the repository
       uses: actions/checkout@v4
