@@ -2,6 +2,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
 
+// Just testing
+
 namespace SoftUniBazar.Data.Models
 {
     public class AdBuyer
